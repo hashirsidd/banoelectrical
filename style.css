@@ -3,7 +3,7 @@ body{
     font-family: 'roboto',Arial, Helvetica, sans-serif;
     overflow-x: hidden !important;
     margin: 0 !important;
-    background-color: rgb(233, 233, 233);
+    background-color: rgb(250, 249, 249);
 }
 .navbar{
     background-color: #141414!important;
@@ -20,10 +20,10 @@ body{
     /* margin: 0 !important; */
     background-color: #ef7524;
     font-size: 18px;
-    color: #383a3c !important;
+    color: #fff !important;
 }
 .top a{
-    color: #383a3c !important;
+    color: #fff !important;
 
 }
 .bottom{
@@ -90,23 +90,63 @@ nav li a:hover{
 orange{
     color:#ef7524;
 }
+a{
+    text-decoration: none;
+}
 .about>p{
     font-size: 18px;
     line-height: 35px;
     width: 75%;
 }
 .banner{
-    height: 10vh;
-    background-color: orange;
+    background-color: #000  ;
+    background-image: url(img/9.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y:-240px ;
+    color: #fff !important;
+    font-weight: bolder ;
+}
+.banner h1{
+    font-weight: bold ;
+    
+}
+.banner a{
+    color: #ef7524!important;
+
+}
+.cover2{
+    background-color: rgba(0, 0, 0, 0.521);
+}
+.serv{
+    font-size: 20px;
+    line-height: 40px;
+    font-weight: 500 ;
+}
+.test{
+    background-image: url(img/4.png);
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.serv img{
+    border: 1px solid #ef7524;
+    border-radius: 5px;
 }
 @media screen and (max-width: 600px) {
     .home-one{
         height: 75vh;
+        background-position-y: 70px !important;
+        background-color: #000;
     }
     .cover h1{
-        font-size: 25px;
-        padding-top: 20px;
+        font-size: 28px;
+        /* padding-top: 20px;
         padding-bottom: 20px;
+         */
+         padding:20px
     }
     .about>p{
         font-size: 18px;
@@ -115,5 +155,21 @@ orange{
     }
     .navbar img{
         width: 130px;
+    }
+    .banner{
+        background-position: center;
+    }
+    .banner a{
+        color: #fff !important;
+    }
+    .serv{
+        width: 90% !important;
+    }
+    .serv .col-md-4{
+        margin-bottom: 40px !important;
+    }
+    .serv .row{
+        margin-bottom: 0 !important;
+        margin-top: 0 !important;
     }
 }
