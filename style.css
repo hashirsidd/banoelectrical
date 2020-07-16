@@ -13,6 +13,7 @@ body{
     right: 40px;
     height: 40px;
     width: 40px;
+    z-index:999;
    
 
 }
@@ -279,7 +280,7 @@ a{
 }
 @media screen and (max-width: 600px) {
     .home-one{
-        height: 75vh;
+        height: 78vh;
         background-position-y: 70px !important;
         background-color: #000;
     }
