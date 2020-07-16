@@ -5,7 +5,36 @@ body{
     margin: 0 !important;
     background-color: rgb(0, 0, 0);
 }
+.support{
+    /* opacity: 0.5; */
+    position: fixed;
+    bottom: 40px;
+    color: #fff;
+    right: 40px;
+    height: 40px;
+    width: 40px;
+   
 
+}
+.support div{
+    border:1px solid #fff;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    line-height: 15px;
+    padding-top: 5px;
+    box-shadow: 0px 0px 15px 1px rgba(0,0,0,0.75);
+
+    background-color: #ef752483;
+}
+.support .fa{
+    font-size: 30px;
+    -webkit-transform: scaleX(-1);
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
 .navbar{
     box-sizing: border-box;
     -moz-box-sizing: border-box;
