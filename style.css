@@ -36,12 +36,12 @@ body{
     -o-transform: scaleX(-1);
     transform: scaleX(-1);
 }
-.navbar{
+#navbar{
     box-sizing: border-box;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     background-color: #000000fa!important;
-    z-index: 5;
+    /* z-index: 9999999 !important; */
     /* border-bottom: 5px solid #ef7524; */
     /* box-shadow:inset 0px 0px 0px 10px #f00; */
     /* box-shadow:0px 0px 0px 10px #f00 inset bottom; */
@@ -65,7 +65,7 @@ body{
 
 }
 .bottom{
-    background-color: #ef7524;
+    background-color: #ffffff86;
     font-size: 18px;
     color: #fff !important;
 }
@@ -89,14 +89,14 @@ nav li a:hover{
     color: #ef7524 !important;
 }
 .home-one{
-    height: 79vh;
-    background-image: url(img/10.jpg);
+    height: 98vh;
+    background-image: url(img/bg1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     z-index: 0;
-    background-position: center;
-    background-position-y: 5px;
+    background-position: cover;
+    /* background-position-y: 20px; */
     /* filter: blur(5px); */
     border-bottom: 5px solid #ef7524 ;
     
@@ -105,8 +105,9 @@ nav li a:hover{
     /* background-color: #ef752438  ; */
     color: #fff;
     z-index: 0;
-    background-color: rgba(5, 5, 5, 0.651);
+    /* background-color: rgba(5, 5, 5, 0.651); */
     /* height: 100px !important; */
+    text-shadow: 1px 4px 10px #000000;
 }
 .cover h1{
     font-weight:bolder!important;
@@ -135,7 +136,8 @@ a{
 .about>p{
     font-size: 18px;
     line-height: 35px;
-    width: 75%;
+    width: 50%;
+    text-align: justify;
 }
 .banner{
     background-color: #000  ;
@@ -278,11 +280,26 @@ a{
 .contact .row{
     width: 80% !important;
 }
+
+.connect .fa{
+    font-size: 40px;
+    margin:10px ;
+    transition: transform 0.3s ease;
+}
+.connect a{
+    text-decoration: none;
+    color: #fff;
+}
+.connect .fa:hover{
+    color:#e66713 ;
+    transform: scale(1.2,1.2);
+}
 @media screen and (max-width: 600px) {
     .home-one{
         height: 78vh;
         background-position-y: 70px !important;
         background-color: #000;
+        background-position: center;
     }
     .cover h1{
         font-size: 28px;
@@ -315,4 +332,5 @@ a{
         margin-bottom: 0 !important;
         margin-top: 0 !important;
     }
+ 
 }
