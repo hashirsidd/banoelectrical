@@ -374,7 +374,8 @@
         // });
 
         // $(window).scrollTop($('#contact').offset().top);
-
+        var height = $(window).outerHeight();
+        $('.home-one').height(height-100);
         // This is a functions that scrolls to #{blah}link
         function goToByScroll(id) {
 

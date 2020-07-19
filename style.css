@@ -90,7 +90,7 @@ nav li a:hover{
     color: #ef7524 !important;
 }
 .home-one{
-    height: 81vh;
+    /* height: 81vh; */
     background-image: url(img/bg1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -295,13 +295,13 @@ a{
 }
 @media screen and (max-width: 600px) {
     .home-one{
-        height: 82vh;
+        /* height: 82vh; */
         z-index: 0;
         background-image: url(img/bg-mobile.jpg);
         background-attachment: fixed;
         background-position: right;
+        width: 100%;
     }
-    .cover h1{
         font-size: 28px;
          padding:20px
     }
