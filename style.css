@@ -296,8 +296,8 @@ a{
 }
 @media screen and (max-width: 600px) {
     .home-one{
-        height: 78vh;
-        background-position-y: 70px !important;
+        height: 98vh;
+        /* background-position-y: 70px !important; */
         background-color: #000;
         background-position: center;
     }
