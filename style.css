@@ -300,11 +300,11 @@ a{
 }
 @media screen and (max-width: 600px) {
     .home-one{
-        height: 78vh;
+        height: 82vh;
         /* background-position-y: 70px !important; */
         background-color: #000;
         /* background-position: center; */
-        background-position-x: -350px;
+        background-position-x: -530px;
         /* background-position-y: 10px; */
     }
     .cover h1{
