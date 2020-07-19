@@ -107,8 +107,11 @@ nav li a:hover{
 
     /* background-color: rgba(5, 5, 5, 0.651); */
     /* height: 100px !important; */
-    text-shadow: 1px 5px 10px #000000;
+    box-shadow: 1px 2px 20px #000000c9;
     margin-bottom: 50px !important;
+    background-color: rgba(0, 0, 0, 0.40);
+    padding: 20px;
+
 }
 .cover h1{
     font-weight:bolder!important;
@@ -299,14 +302,20 @@ a{
         z-index: 0;
         background-image: url(img/bg-mobile.jpg);
         background-attachment: fixed;
-        background-position: right;
+        background-position: cover cover;
+        overflow: hidden;
         width: 100%;
+        /* font-size: 28px; */
+         padding:10px
     }
+    .cover h1{
         font-size: 28px;
-         padding:20px
     }
     .cover{
         margin-bottom: 100px;
+        background-color: rgba(0, 0, 0, 0.3);
+        padding: 5px;
+
     }
     .about>p{
         font-size: 18px;
