@@ -302,8 +302,8 @@ a{
         /* height: 82vh; */
         z-index: 0;
         background-image: url(img/bg-mobile.jpg);
-        background-attachment: fixed;
-        /* background-attachment: scroll; */
+        /* background-attachment: fixed; */
+        background-attachment: scroll;
         background-position: right bottom;
         overflow: hidden;
         width: 100%;
