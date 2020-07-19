@@ -90,7 +90,7 @@ nav li a:hover{
     color: #ef7524 !important;
 }
 .home-one{
-    height: 98vh;
+    height: 81vh;
     background-image: url(img/bg1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -300,7 +300,7 @@ a{
 }
 @media screen and (max-width: 600px) {
     .home-one{
-        height: 98vh;
+        height: 78vh;
         /* background-position-y: 70px !important; */
         background-color: #000;
         background-position: center;
