@@ -147,6 +147,7 @@ a{
     background-image: url(img/9.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    /* background-attachment:    fixed; */
     background-position-y:-240px ;
     color: #fff !important;
     font-weight: bolder ;
@@ -302,7 +303,8 @@ a{
         z-index: 0;
         background-image: url(img/bg-mobile.jpg);
         background-attachment: fixed;
-        background-position: cover cover;
+        /* background-attachment: scroll; */
+        background-position: cover;
         overflow: hidden;
         width: 100%;
         /* font-size: 28px; */

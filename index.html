@@ -115,7 +115,7 @@
             <p class=" mx-auto mt-5 px-md-5 ">
                 <b>We are skilled professionals who are giving the best possible solutions to our customers since
                     2002.</b> <br>
-                    <img src="img/car.jpg" width="100%" alt="">
+                <img src="img/car.jpg" width="100%" alt="">
                 <br>
                 We are a trusted and quality electrical contracting services in Mississauga, Ontario.
                 Bano Electrical Services Ltd is no doubt your go-to-option for all of your electrical projects
@@ -374,9 +374,16 @@
         // });
 
         // $(window).scrollTop($('#contact').offset().top);
-        var height = $(window).outerHeight();
-        $('.home-one').height(height-100);
+
+        //var height = $(window).outerHeight();
+        //$('.home-one').height(height-100);
         // This is a functions that scrolls to #{blah}link
+
+        function resizeBackground() {
+            $('.home-one').height($(window).height()-120); 
+        }
+        $(window).resize(resizeBackground);
+        resizeBackground();
         function goToByScroll(id) {
 
             $('html,body').delay(100).animate({
