@@ -303,7 +303,8 @@ a{
         height: 78vh;
         /* background-position-y: 70px !important; */
         background-color: #000;
-        background-position: center;
+        background-position-x: -250px;
+        background-position-y: 0px;
     }
     .cover h1{
         font-size: 28px;
